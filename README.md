@@ -37,3 +37,10 @@ sudo apt-get install gcc-multilib
 conda install -c conda-forge matplotlib 
 ```
 
+To find path to matplotlibrc:
+
+```
+import matplotlib
+print(matplotlib.matplotlib_fname())
+```
+
